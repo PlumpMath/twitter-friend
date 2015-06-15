@@ -25,7 +25,7 @@ This library attempts to keep the choices you have to make to a minimum:
 
 The credential function receives a map that looks like this:
 
-```
+```clojure
 {:oauth_token "users-twitter-access-token"
  :oauth_token_secret "users-twitter-access-secret"
  :user_id "users-twitter-user-id"
@@ -34,7 +34,7 @@ The credential function receives a map that looks like this:
 
 ## Example Usage
 
-```
+```clojure
 (require '[twitter-friend :refer [twitter-auth-workflow]])
 
 
